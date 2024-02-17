@@ -1,0 +1,28 @@
+// Button styles
+  @mixin button-styles {
+    padding: 10px 20px;
+    background-color: $color-accent;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color $transition-duration $transition-ease;
+  
+    &:hover {
+      color: #8dc981;
+    }
+  }
+  
+  // Card hovers
+  @mixin card-hover {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  

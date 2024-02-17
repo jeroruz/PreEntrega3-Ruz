@@ -1,0 +1,16 @@
+@import 'base/reset';
+@import 'base/vars';
+@import 'base/fonts';
+@import 'base/utilities';
+
+@import 'components/footer';
+@import 'components/navbar';
+@import 'components/button';
+
+@import 'layouts/index';
+@import 'layouts/catalogo';
+@import 'layouts/envios';
+@import 'layouts/guia';
+@import 'layouts/mediaqueries';
+@import 'layouts/contacto';
+
