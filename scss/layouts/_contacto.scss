@@ -4,14 +4,20 @@
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  h1 {
+    color: #050505;
+    margin-bottom: 10px;
+  }
+  h2{ 
+    font-size: 16px
+
+  }
+  &-form-group {
+    margin-bottom: 20px;
+  }
+  
 }
-.contacto-form h2 {
-  color: #2948d4;
-  margin-bottom: 20px;
-}
-.contacto-form-form-group {
-  margin-bottom: 20px;
-}
+
 
 .form-control {
   width: 100%;
@@ -35,8 +41,7 @@ textarea.form-control {
   cursor: pointer;
 }
 
-.btn-primary :hover {
+.btn-primary :hover{
   color: #8dc981;
 }
 
-/*# sourceMappingURL=contacto.css.map */

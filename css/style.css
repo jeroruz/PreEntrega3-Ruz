@@ -123,13 +123,13 @@ body {
   margin: 0;
 }
 
-.card-destacados h2 {
+.card-destacados h1, .card-destacados h2 {
   text-align: center;
   margin: 0 auto 80px;
   line-height: 60px;
   color: #555;
 }
-.card-destacados h2::after {
+.card-destacados h1::after, .card-destacados h2::after {
   content: "";
   display: block;
   background: #597e52;
@@ -223,7 +223,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-.catalogo-container-producto h3 {
+.catalogo-container-producto h2 {
   margin: 10px 0;
   font-size: 1.5rem;
   color: #333;
@@ -280,7 +280,7 @@ select {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
 }
-.contenedor-general-filtros h2 {
+.contenedor-general-filtros h1 {
   font-size: 1.2rem;
   color: #333;
 }
@@ -345,7 +345,7 @@ select {
   float: left;
   padding: 20px;
 }
-.container-guia h2 {
+.container-guia h1, .container-guia h2 {
   color: #333;
 }
 .container-guia p {
@@ -432,9 +432,12 @@ select {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.contacto-form h1 {
+  color: #050505;
+  margin-bottom: 10px;
+}
 .contacto-form h2 {
-  color: #2948d4;
-  margin-bottom: 20px;
+  font-size: 16px;
 }
 .contacto-form-form-group {
   margin-bottom: 20px;
