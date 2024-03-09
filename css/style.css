@@ -93,10 +93,6 @@ body {
 #beneficios {
   background-color: #597E52;
 }
-#beneficios li {
-  color: white;
-  font-weight: bold;
-}
 #beneficios ul {
   list-style: none;
   padding: 0;
@@ -108,8 +104,10 @@ body {
   flex: 0 0 calc(25% - 20px);
   margin: 10px;
   text-align: center;
+  color: white;
+  font-weight: bold;
 }
-#beneficios .beneficio-item img {
+#beneficios img {
   max-width: 100%;
   height: auto;
 }
@@ -407,6 +405,9 @@ select {
   }
   p {
     color: #666;
+  }
+  .beneficio-item {
+    flex: 0 0 calc(100% - 20px);
   }
 }
 /* Media Queries para pantallas medianas (min-width: 768px) and (max-width: 1199px) */

@@ -20,11 +20,6 @@ body {
 #beneficios {
   background-color: #597E52;
 
-  li {
-    color: white;
-    font-weight: bold;
-  }
-
   ul {
     list-style: none;
     padding: 0;
@@ -37,11 +32,13 @@ body {
     flex: 0 0 calc(25% - 20px);
     margin: 10px;
     text-align: center;
+    color: white;
+    font-weight: bold;
+  }
 
-    img {
-      max-width: 100%;
-      height: auto;
-    }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 

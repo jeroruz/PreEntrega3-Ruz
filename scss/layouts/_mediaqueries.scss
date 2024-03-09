@@ -64,7 +64,9 @@
     color: #666;
   }
   
-  
+  .beneficio-item {
+    flex: 0 0 calc(100% - 20px);
+  }
 }
 
   /* Media Queries para pantallas medianas (min-width: 768px) and (max-width: 1199px) */
