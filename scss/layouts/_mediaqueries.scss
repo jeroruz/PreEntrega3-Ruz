@@ -97,7 +97,9 @@
       background-color: #161616;
       
     }
-
+    .beneficio-item {
+      flex: 0 0 calc(50% - 20px);
+    }
     
   }
   /* Media Queries para pantallas grandes (min-width: 1200px) */
