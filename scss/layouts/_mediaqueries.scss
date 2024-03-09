@@ -32,7 +32,38 @@
     flex-direction: column;
     align-items: center;
   }
-
+  
+  .container-guia {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección a columna en lugar de fila */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .container-guia img {
+    width: 100%; /* Hacer que la imagen ocupe el ancho completo del contenedor */
+    border-radius: 8px 8px 0 0; /* Ajustar el redondeo de las esquinas */
+  }
+  
+  .container-guia-text {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
   
 }
 
